@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 100px;
+}
+
+h1 {
+    text-align: center;
+    width : 450px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+}
+
+h1 div{
+    flex:1;
+}
+
+img{
+    width:450px;
+}
+
+#action{
+    width: 450px;
+    display: flex;
+}
+
+button{
+    /* width : 150px; */
+    flex: 1;
+    color : white;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#p1add{
+    background-color: aquamarine;
+}
+
+#p2add{
+    background-color: cornflowerblue;
+}
+
+#reset{
+    background-color:crimson ;
+}
+
+#title{
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+#score{
+    margin-top: 30px;
+}
